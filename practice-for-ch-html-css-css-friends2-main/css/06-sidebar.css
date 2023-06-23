@@ -1,0 +1,20 @@
+/* PHASE 6: Sidebar */
+a.profile-picture > img{
+        display: block;
+        border-radius: 10px;
+        border: black solid 2px;
+        position: relative;
+        margin-top: -150px;
+        z-index: 1;
+}
+
+.profile-info{
+
+}
+
+.profile-nav{
+        :first-child li{
+                border-top: grey solid 5px;
+        }
+
+}
