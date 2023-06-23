@@ -1,20 +1,37 @@
 /* PHASE 6: Sidebar */
-a.profile-picture > img{
+a.profile-picture > img {
         display: block;
-        border-radius: 10px;
-        border: black solid 2px;
+        border-radius: 6px;
+        border: black solid 1px;
         position: relative;
-        margin-top: -150px;
-        z-index: 1;
-}
-
-.profile-info{
+        margin-top: -130px;
+        overflow: hidden;
 
 }
+a.profile-picture {
+        position: relative;
+        z-index: 10;
+        overflow: hidden;
+}
 
-.profile-nav{
-        :first-child li{
-                border-top: grey solid 5px;
-        }
+.profile-info h2{
+        font-size: x-large;
+        font-weight: bold;
+        padding: 20px 0 20px 0;
+}
 
+.profile-nav li:first-child {
+        border-top: lightgray solid 1px;
+}
+
+.profile-nav li {
+        border-bottom: lightgray solid 1px;
+}
+
+.profile-nav li {
+        font-weight: bold;
+}
+
+.profile-nav li:hover {
+        background-color: gray;
 }

@@ -1,1 +1,17 @@
 /* PHASE 7: Online */
+
+
+.online {
+    display: block;
+    position: absolute;
+    background-color: limegreen;
+    width: 140px;
+    height: 20px;
+    color: white;
+    transform: rotate(-45deg);
+    font-family: Futura;
+    text-transform: uppercase;
+    /* translate: -35px -85px; */
+    text-align: center;
+    box-shadow: 5px 2px 2px darkslategrey;
+}
